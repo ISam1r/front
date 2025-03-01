@@ -27,7 +27,7 @@ const price = product ? product.price : ''
                         <div className="title is-parent is-vertical">
                             <article className="tile is-child notification has-text-centered">
                                 <img
-                                    src={`http://localhost:1337${image}`}
+                                    src={`https://strapi-gt2u.onrender.com${image}`}
                                     alt="404 not found"/>
                             </article>
                         </div>
