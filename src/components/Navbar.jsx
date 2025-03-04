@@ -1,8 +1,8 @@
 import React from 'react'
 import '../static/style.css'
 import { Link } from 'react-router-dom'
-import Img from '../assets/thumb_1461_1140_0_0_0_auto.jpg'
-import Img2 from '../assets/thumb_60_1140_0_0_0_auto.jpg'
+import Img from '../assets/e2e3e772-9bcc-11ed-999b-9e4425b8c29a.1200x1000.jpeg'
+import Img2 from '../assets/registan-square-samarkand-illuminated-yh97mdj40setk5ig.jpg'
 import Img3 from '../assets/shutterstock_1007253181-0-0-0-0-1728474450.jpg'
 
 export default function Navbar() {
