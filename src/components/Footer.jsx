@@ -7,7 +7,7 @@ export default function Footer() {
         <div class="foo-container">
             <div class="footer-content">
                 <h3>Связь с нами</h3>
-                <p>Почта:Info@example.com</p>
+                <p>Почта: maktabtravel11@gmail.com</p>
                 <p>Номер:+998652237272</p>
                 <p>Адресс: Buxoro shahar I.Mo`minov ko`chasi 2-uy (Buxoro shahar hokimligi binosi 5-qavat) </p>
             </div>
