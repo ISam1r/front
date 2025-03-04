@@ -14,7 +14,7 @@ export default function Map() {
             </div>
             <div className="ha-img">
 
-            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3066.824518596799!2d64.43450637544943!3d39.76604819498593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0KPQu9C40YbQsCDQmNCx0YDQvtGF0LjQvCDQnNGD0LzQuNC90L7QsiAyINC00L7QvA!5e0!3m2!1sru!2s!4v1740324968987!5m2!1sru!2s" width="600" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2168.56476936176!2d64.42130327999713!3d39.766290903018486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1741103519710!5m2!1sru!2s" width="600" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
           </div>
