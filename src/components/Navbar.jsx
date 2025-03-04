@@ -3,7 +3,7 @@ import '../static/style.css'
 import { Link } from 'react-router-dom'
 import Img from '../assets/e2e3e772-9bcc-11ed-999b-9e4425b8c29a.1200x1000.jpeg'
 import Img2 from '../assets/registan-square-samarkand-illuminated-yh97mdj40setk5ig.jpg'
-import Img3 from '../assets/shutterstock_1007253181-0-0-0-0-1728474450.jpg'
+import Img3 from '../assets/fc40d46a-11b9-11ee-8632-1afb68c200e7.1600x900.jpeg'
 
 export default function Navbar() {
     window.addEventListener('scroll', function(){
@@ -67,7 +67,7 @@ export default function Navbar() {
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img alt="..." class="d-block w-100" src={Img3}/>
+				<img alt="..." class="d-block w-100" src={Img2}/>
 				<div class="carousel-caption">
 					<h5 class="animated bounceInRight"  style={{fontWeight: '400' }}>Maktab Travel</h5>
 					<p class="animated bounceInLeft d-none d-md-block"  style={{fontWeight: '700', color: 'orange'}}>Организуем поездки для детей и экскурсии для школ</p>
@@ -79,7 +79,7 @@ export default function Navbar() {
 						</div>
 			</div>
 			<div class="carousel-item">
-				<img alt="..." class="d-block w-100" src={Img2}/>
+				<img alt="..." class="d-block w-100" src={Img3}/>
 				<div class="carousel-caption">
 					<h5 class="animated bounceInRight"  style={{fontWeight: '400'}}>Maktab Travel</h5>
 					<p class="animated bounceInLeft d-none d-md-block" style={{fontWeight: '700', color: 'orange',}} >Здесь вы найдете самый большой выбор самых впечатляющих экскурсий для школьников в зависимости от интересов вашего ребенка и по доступным ценам.</p>
