@@ -9,7 +9,7 @@ export default function Map() {
           <div className="columns">
             <div className="ha-content" style={{color: 'white', fontSize:'35px'}}>
 
-            <p>Так вот наш адресс:</p>
+            <p>Наш адресс:</p>
             <p>Buxoro shahar I.Mo`minov ko`chasi 2-uy (Buxoro shahar hokimligi binosi 5-qavat)</p>
             </div>
             <div className="ha-img">
