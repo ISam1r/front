@@ -57,7 +57,7 @@ export default function Navbar() {
 			<div class="carousel-item active">
 				<img alt="..." class="d-block w-100" src={Img}/>
 				<div class="carousel-caption">
-					<h5 class="animated bounceInRight"  style={{fontWeight: '400', color: 'orange'}}>Maktab Travel</h5>
+					<h5 class="animated bounceInRight"  style={{fontWeight: '400', }}>Maktab Travel</h5>
 					<p class="animated bounceInLeft d-none d-md-block" style={{fontWeight: '700', }}>Это туристическая компания для учителей и детей</p>
 					{/* <p class="animated bounceInRight" >
 					<Link to={'/about'}>
@@ -70,7 +70,7 @@ export default function Navbar() {
 				<img alt="..." class="d-block w-100" src={Img2}/>
 				<div class="carousel-caption">
 					<h5 class="animated bounceInRight"  style={{fontWeight: '400' }}>Maktab Travel</h5>
-					<p class="animated bounceInLeft d-none d-md-block"  style={{fontWeight: '700', color: 'orange'}}>Организуем поездки для детей и экскурсии для школ</p>
+					<p class="animated bounceInLeft d-none d-md-block"  style={{fontWeight: '700',}}>Организуем поездки для детей и экскурсии для школ</p>
 					{/* <p class="animated bounceInRight" >
 					<Link to={'/about'}>
 						<a href="#">Подробнее</a>
@@ -82,7 +82,7 @@ export default function Navbar() {
 				<img alt="..." class="d-block w-100" src={Img3}/>
 				<div class="carousel-caption">
 					<h5 class="animated bounceInRight"  style={{fontWeight: '400'}}>Maktab Travel</h5>
-					<p class="animated bounceInLeft d-none d-md-block" style={{fontWeight: '700', color: 'orange',}} >Здесь вы найдете самый большой выбор самых впечатляющих экскурсий для школьников в зависимости от интересов вашего ребенка и по доступным ценам.</p>
+					<p class="animated bounceInLeft d-none d-md-block" style={{fontWeight: '700',}} >Здесь вы найдете самый большой выбор самых впечатляющих экскурсий для школьников в зависимости от интересов вашего ребенка и по доступным ценам.</p>
 					{/* <p class="animated bounceInRight" > */}
 					{/* <Link to={'/about'}>
 						<a href="#">Подробнее</a>
