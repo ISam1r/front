@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import Price from '../components/Price'
 import Products from '../components/Products'
 import { PRODUCTS } from '../urls'
 import axios from 'axios'
@@ -19,7 +20,7 @@ export default function Prices() {
   return (
     <>
     <Navbar />
-    <Products products={products}/>
+    <Price />
     <Footer />
     </>
   )
