@@ -7,27 +7,31 @@ import Images from '../components/Images'
 import Footer from '../components/Footer'
 import { PRODUCTS } from '../urls'
 import axios from 'axios'
+import Features from '../components/Features'
+import ContactForm from '../components/ContactForm'
 
 
 export default function Home() {
-  // const [products, setProducts] = useState([])
+  const [products, setProducts] = useState([])
 
   
-// useEffect(() => load(), [])
+useEffect(() => load(), [])
 
-// const load = () => {
-//        axios.get(PRODUCTS)
-//            .then(res => setProducts(res.data.data))
-//            .catch(err => console.log(err))
-// }
+const load = () => {
+       axios.get(PRODUCTS)
+           .then(res => setProducts(res.data.data))
+           .catch(err => console.log(err))
+}
 
   return (
     <>
     <Navbar />
-    {/* <HomeAbout /> */}
+    
     <Images />
-    {/* <Products products={products} /> */}
-    <Map />
+    < Features />
+    <HomeAbout />
+    <Products products={products} />
+    <ContactForm />
     <Footer />
     </>
   )

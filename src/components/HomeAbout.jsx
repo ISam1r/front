@@ -4,21 +4,10 @@ import Img from '../assets/photo_2022-12-17_12-00-44.jpg'
 export default function HomeAbout() {
     return (
         <>
-            <section className='ha-section'>
-                <div className="ha-container">
-                    <div className="columns">
-                        <div className="ha-img">
-                            <img src={Img} alt=""  className='ha-img' style={{marginRight: '25px'}}/>
-                        </div>
-                        <div className="ha-content " style={{marginLeft: '25px'}}>
-                            <h1 style={{fontSize: '30px', color: 'black', fontWeight: '500', color: 'white'}}>О нас</h1>
-                            <p style={{fontSize: '15px', color: 'black', fontWeight: '700' , color: 'white'}}> Экскурсии для школьников, каждая поездка имеет свой смысл. Некоторые экскурсии рассчитаны на общее развитие школьников, помогают углубленно изучить определенную тему, а другие доставят приятное времяпрепровождение и приятные ощущения</p>
-                            <p style={{fontSize: '15px', color: 'black', fontWeight: '700' , color: 'white'}}>Некоторые экскурсии рассчитаны на общее развитие школьников, помогают углубленно изучить определенную тему, а другие доставят приятное времяпрепровождение и приятные ощущения.</p>
-                            <p style={{fontSize: '15px', color: 'black', fontWeight: '700' , color: 'white'}}>Основная задача нашей компании – организация незабываемых экскурсий для школьников.</p>
-                            {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique rem harum hic ducimus veniam molestias sunt recusandae sequi et aspernatur. Temporibus modi animi dolores natus voluptates laborum porro quidem perspiciatis perferendis numquam ea officiis assumenda id, esse possimus! Quae temporibus culpa voluptate iusto soluta a harum ea nam animi nulla.</p> */}
-                        </div>
-                    </div>
-                </div>
+            <section className="about">
+                <h1>Компания «Maktab Travel» — специализированный туроператор для школ и молодёжных групп</h1>
+                <p>«Мы помогаем школам, колледжам и молодёжным группам с образовательными и туристическими поездками по Узбекистану» У нас есть широкий выбор готовых маршрутов, которые помогут вам извлечь пользу из нашего опыта, и мы всегда рады помочь вам подготовить школьную поездку специально для вас. Oзнакомьтесь с самыми популярными экскурсиями для начальных и средних школ, а также с большим выбором однодневных экскурсий. Мы сделаем всё возможное, чтобы вы всегда получали самое лучшее!</p>
+                <a href="#more" className="btn">Подробнее об компании</a>
             </section>
         </>
     )
