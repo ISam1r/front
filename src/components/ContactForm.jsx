@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function ContactForm() {
   return (
-    <div class="contact-form">
+    <div className="contact-form">
         <h2 style={{fontSize: '25px'}}>КОНТАКТНАЯ ФОРМА</h2>
         <br />
         <div class="form-group">
@@ -14,7 +14,7 @@ export default function ContactForm() {
         <br />
         <textarea placeholder="Ваше сообщение"></textarea>
         <br/>
-        <button class="btn">Отправить сообщение</button>
+        <button className="btn">Отправить сообщение</button>
     </div>
   )
 }

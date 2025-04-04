@@ -7,20 +7,36 @@ import Img3 from '../assets/fc40d46a-11b9-11ee-8632-1afb68c200e7.1600x900.jpeg'
 
 export default function Navbar() {
   function toggleMenu() {
-    document.querySelector('.nav-links').classList.toggle('active');
+    const links = document.querySelector('.nav-links');
+    const burger = document.querySelector('.burger');
+    const items = document.querySelectorAll('.nav-links li');
+    
+    links.classList.toggle('active');
+    burger.classList.toggle('active');
+    
+    if (links.classList.contains('active')) {
+        items.forEach((item, index) => {
+            item.style.transitionDelay = `${index * 0.1}s`;
+        });
+    } else {
+        items.forEach((item) => {
+            item.style.transitionDelay = '0s';
+        });
+
 }
+  }
   return (	
    <>
    <header>
-        <nav class="navbar">
-            <div class="logo">MAKTAB TRAVEL</div>
-            <ul class="nav-links">
+        <nav className="navbar">
+            <div className="logo">MAKTAB TRAVEL</div>
+            <ul className="nav-links">
                 <li><a href="#">Главная</a></li>
                 <li><a href="#about">О нас</a></li>
                 <li><a href="#tours">Туры</a></li>
                 <li><a href="#contact">Контакты</a></li>
             </ul>
-            <div class="burger" onClick={toggleMenu}>☰</div>
+            <div className="burger" onClick={toggleMenu}>☰</div>
         </nav>
     </header>
    </>
